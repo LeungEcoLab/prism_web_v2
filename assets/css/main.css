@@ -167,7 +167,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
-	h1 {
+	h1, h5 {
     padding-top: 0.75em;
 		font-size: 2.75em;
 		font-weight: 700;
@@ -198,7 +198,7 @@ input, select, textarea {
 
 		}
 
-	h2, h3, h4, h5, h6 {
+	h2, h3, h4, h6 {
 		font-weight: 900;
 		line-height: 1.5;
 		margin: 0 0 2em 0;
@@ -207,7 +207,7 @@ input, select, textarea {
     color: #d8412b;
 	}
 
-		h2 a, h3 a, h4 a, h5 a, h6 a {
+		h2 a, h3 a, h4 a, h6 a {
 			color: inherit;
 		}
 
@@ -220,11 +220,12 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 0.8em;
+		font-size: 1.25em;
+    color: #d8412b;
 	}
 
 	h5 {
-		font-size: 0.8em;
+    color: #d8412b;
 	}
 
 
@@ -2326,6 +2327,8 @@ input, select, textarea {
 
 		.image img {
 			border-radius: 4px;
+      object-fit: cover;
+      object-position: bottom right;
 			display: block;
 		}
 
@@ -2714,7 +2717,7 @@ input, select, textarea {
 
 			.tiles article.style1 > .image:before {
 				background-color: #053a55;
-        opacity: 0.9;
+        opacity: 0.75;
         height: 150px;
         top: 50%;
         transform: translate(0%, -60%);
@@ -2831,7 +2834,8 @@ input, select, textarea {
     background-position: center center;
 		padding: 2em 0 0.1em 0 ;
     cursor: default;
-    height: 9em;
+    height: 12em;
+    box-shadow: 0 -60px 25px -20px white inset;
 	}
 
 		#header .logo {
@@ -2839,7 +2843,7 @@ input, select, textarea {
 			border-bottom: 0;
 			font-weight: 900;
 			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
+			margin: 0.5em 0 2.5em 0;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -3177,6 +3181,7 @@ input, select, textarea {
     background-position: center center;
     padding: 3em 0 0.1em 0 ;
     cursor: default;
+    box-shadow: 0 60px 25px -20px white inset;
 	}
 
 		#footer > .inner {
