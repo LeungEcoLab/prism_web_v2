@@ -3027,7 +3027,7 @@ input, select, textarea {
     background-size: cover;
     background-position: center center;
 		color: #ffffff;
-    font-size: 1.25em;
+    font-size: 1em;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
